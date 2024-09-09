@@ -16,6 +16,10 @@ public class DTO {
 	
 	
 	
+	public DTO() {
+		super();
+	}
+	
 	public DTO(int iD, String name, int age, String department) {
 		super();
 		ID = iD;
